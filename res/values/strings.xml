@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocationAlarm</string>
+    <string name="staion">站表</string>
+    <string name="map">地图</string>
+    <string name="setup">设置</string>
+    <string name="subway">地铁</string>
+    <string name="train">火车</string>
+    <string name="ringtone">铃声</string>
+    <string name="search">search</string>
+    <string name="search_hint">查询站名</string>
+    
+    <string name="currentcity">上海</string>
+    <string name="currentlocation">当前位置</string>
+    <string name="gpsstatus">GPS状态：</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="yourlocation">您的当前位置</string>
+    <string name="unknownlocation">未知位置</string>
+    <string name="mapalarmcontent">您是否为当前位置添加闹钟？</string>
+    
+    <string name="search_invoke">搜索</string>
+    <string name="distance">距离:</string>
+    <string name="speed">速度:</string>
+    
+    <string name="addnewalarm">添加新闹钟</string>
+    <string name="vibration">振动</string>
+    
+    <string name="choosecity">选择城市</string>
+    <string name="choosestation">选择站点</string>
+    <string name="chooseradius">半径</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="makesure">确定</string>
+    <string name="exitapp">您确定退出该程序？</string>
+    <string name="exit">退出</string>
+    <string name="defaultringtone">缺省铃声</string>
+    
+    <string name="alarmrange">请输入半径（单位： 米）</string>
+    <string name="startvibrate">是否开启振动？</string>
+    
+    <string name="notification">目的地已到达</string>
+    
+    <string-array name="allcities">
+        <item>上海</item>
+        <item>北京</item>
+        <item>天津</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>南京</item>
+    </string-array>
+    
+    <string-array name="provincelist">
+        <item>北京</item>
+        <item>上海</item>
+        <item>江苏</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>甘肃</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>贵州</item>
+        <item>海南</item>
+        <item>河北</item>
+        <item>河南</item>
+        <item>黑龙江</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>吉林</item>
+        <item>贵州</item>
+        <item>江西</item>
+        <item>辽宁</item>
+        <item>内蒙古</item>
+        <item>宁夏</item>
+        <item>青海</item>
+        <item>山东</item>
+        <item>山西</item>
+        <item>陕西</item>
+        <item>四川</item>
+        <item>天津</item>
+        <item>西藏</item>
+        <item>新疆</item>
+        <item>云南	</item>
+        <item>浙江</item>
+        <item>重庆</item>	
+		
+    </string-array>
+    
+    <string name="menutitle">删除闹钟</string>
+    <string name="menucontent">您确认删除该闹钟么？</string>
+    
+</resources>

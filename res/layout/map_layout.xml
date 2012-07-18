@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:id="@+id/topllmaplayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<RelativeLayout  android:id="@+id/llmaplayout"
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+    
+    <ImageButton 
+    	android:id="@+id/currentlocation"
+    	android:background="@android:color/transparent"
+		android:src="@drawable/mylocation"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:clickable="true"
+  		android:layout_alignParentLeft="true"
+    />
+    
+    <ImageButton 
+    	android:id="@+id/maplookup"
+    	android:background="@android:color/transparent"
+		android:src="@drawable/search"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:clickable="true"
+  		android:layout_alignParentRight="true"
+    />
+    
+    <TextView 
+    	android:id="@+id/gpsstatus"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:gravity="center" 
+  		android:layout_toLeftOf="@id/maplookup"
+  		android:layout_toRightOf="@id/currentlocation"
+  		android:textColor="#FF0000" 
+    />
+    
+   </RelativeLayout >
+   
+	<com.google.android.maps.MapView
+		android:id="@+id/map_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:enabled="true"
+		android:clickable="true"
+		android:layout_below="@id/llmaplayout"
+		android:apiKey="0e-A8QytbDQYFuXtBa8v9HnBhUSrLXo6vfSgSPA"
+	/>
+
+</LinearLayout>

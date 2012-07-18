@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rlsubwaylayout"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+    <LinearLayout android:id="@+id/subwaylayout"
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  
+    <TextView 
+    	android:id="@+id/subwaycity"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:gravity="center_horizontal" 
+  		android:layout_weight="1"
+		android:textSize="20sp"
+  		android:text="@string/currentcity"
+    />
+ 
+    <ImageButton 
+    	android:id="@+id/replace"
+    	android:background="@android:color/transparent"
+		android:src="@drawable/switchbutton"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:clickable="true"
+    />
+    
+    <ImageButton 
+    	android:id="@+id/lookup"
+    	android:background="@android:color/transparent"
+		android:src="@drawable/search"
+    	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:clickable="true"
+  		android:layout_toLeftOf="@id/rlsubwaylayout"
+    />
+   </LinearLayout>
+   
+   <ListView
+    	android:id="@+id/linelist"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/subwaylayout"
+
+   />
+    
+</RelativeLayout >
